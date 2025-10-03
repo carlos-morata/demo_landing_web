@@ -1,10 +1,7 @@
-/* ESTILOS GENERALES */
 * {
-    padding: 0px;
-    margin: 0px;
+    margin: 0;
+    padding: 0;
 }
-
-/* ESTILOS HEADER */
 
 .site-header {
     width: 100%;
@@ -52,54 +49,64 @@
 }
 
 /* ESTILOS MAIN */
-.site-main {
-    width: 100%;
-    height: 100vh;
-    position: relative;
-}
 
-.site-main .title {
-    letter-spacing: 1px;
+.h1-main {
+    position: absolute;
+    top: 26%;
+    left: 16%;
     color: #16336a;
-    text-align: center;
-    position: absolute;
-    top: 25%;
-    left: 32%;
-    font-size: 40px;
-}
-
-.site-main #text {
-    position: absolute;
-    top: 33%;
-    left: 39%;
     letter-spacing: 1px;
-    color: white;
+}
+
+.container-text {
+    position: absolute;
     background-color: #16336a;
+    width: 450px;
+    height: 200px;
+    top: 34%;
+    left: 16%;
+
+}
+
+.container-text:hover {
+    background-color: white;
+    transition: all .5s linear;
+    outline: 2px solid #16336a;
+}
+
+.main-text {
+    word-spacing: 1px;
+    color: white;
     padding: 10px;
-    font-size: 16px;
+    box-sizing: border-box;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.main-text:hover {
+    color: #16336a;
+    font-weight: bold;
+}
+
+.site-main img {
+    width: 200px;
+    aspect-ratio: 828/1472;
     border-radius: 10px;
-}
-
-.site-main #title-2 {
-    top: 50%;
-    font-size: 25px;
-    text-decoration: underline;
-}
-
-.site-main #title-3 {
-    top: 90%;
-    font-size: 20px;
+    position: absolute;
+    top: 20%;
+    right: 16%;
 }
 
 /* ESTILOS FOOTER */
-.site-footer {
+/* .site-footer {
     width: 100%;
     height: 10vh;
     background-color: #16336a;
     color: white;
+    position: relative;
 }
 
 .span {
     word-spacing: 1px;
     font-size: 20px;
-}
+} */

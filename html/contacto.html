@@ -4,28 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Primera Web | Contacto</title>
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../css/contacto.css">
 </head>
 <body>
         <header class="site-header">
-            <img src="../assets/img/Logo CMS.png" width="200px" alt="Logotipo con las iniciales CMS">
+            <img src="./assets/img/Logo CMS.png" alt="Logotipo con las iniciales CMS">
 
             <nav class="navbar">
                 <ul class="list-nav">
                     <li class="list-item-nav">
-                        <a href="../index.html">Inicio</a>
+                        <a href="./index.html">Inicio</a>
                     </li>
                     <li class="list-item-nav">
-                        <a href="../html/biografia.html">Biografía</a>
+                        <a href="biografia.html">Biografía</a>
                     </li>
                     <li class="list-item-nav">
-                        <a href="../html/portfolio.html">Portfolio</a>
+                        <a href="portfolio.html">Portfolio</a>
                     </li>
                     <li class="list-item-nav">
-                        <a href="../html/contacto.html">Contacto</a>
+                        <a href="contacto.html">Contacto</a>
                     </li>
                 </ul>
             </nav>
     </header>
+    <main class="site-main">
+        <h1>Contacto</h1>
+        <form action="">
+            <label for="name">
+                Nombre:
+                <input type="text" placeholder="Tu Nombre" name="name" id="name" required>
+            </label>
+            <label for="">
+                Correo:
+                <input type="email" placeholder="ejemplo@gmail.com" name="email" id="email" required>
+            </label>
+            <label for="tel">
+                Teléfono:
+                <input type="tel" placeholder="67850332" name="tel" id="tel" required>
+            </label>
+            <label for="select">
+                <select name="select" id="select">
+                    <option value="0">Motivo:</option>
+                    <option value="1">Solicitar Información</option>
+                    <option value="2">Resolver una duda</option>
+                    <option value="3">Dar una sugerencia</option>
+                </select>
+            </label>
+            <label for="msg">
+                Mensaje final:
+                <textarea name="msg" id="msg" rows="20" cols="10"></textarea>
+            </label>
+            <input type="checkbox" name="check" id="check">
+            <label for="check">Acepto la política de privacidad.</label>
+            <button>Enviar</button>
+        </form>
+    </main>
+    <!-- <footer class="site-footer">
+        <span class="span" id="span1">Política de privacidad</span>
+        <span class="span" id="span2">Carlos Moratinos &copy;</span>
+    </footer> -->
 </body>
 </html>

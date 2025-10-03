@@ -1,0 +1,46 @@
+/* ESTILOS HEADER */
+
+.site-header {
+    width: 100%;
+    height: 18vh;
+    background-color: #16336a;
+    position: relative;
+    top: 0;
+    position: fixed;
+    box-sizing: border-box;
+}
+
+/* Estilos Logotipo */
+.site-header img {
+    width: 165px;
+    aspect-ratio: 1536 / 1024;
+    position: relative;
+    left: 5%;
+    top: 9%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* ESTILOS NAVBAR */
+.navbar {
+    position: absolute;
+    top: 45%;
+    right: 5%;
+}
+
+.list-item-nav {
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.list-item-nav a {
+    background-color: white;
+    color: #16336a;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
